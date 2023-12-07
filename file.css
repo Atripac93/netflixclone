@@ -1,11 +1,11 @@
 body{
-    background-color: black !important;
+    background-color: rgb(29, 28, 28) !important;
 }
-.navbar-brand{
+.logo{
     height: 60px;
     transition: 3s;
 }
-.navbar-brand:hover{
+.logo:hover{
     transition: 5s;
     box-shadow: 0 5px 10px 5px rgb(255, 0, 0);
    
@@ -36,7 +36,6 @@ body{
     height: 25px;
     font-weight: bolder; 
 }
-
 @keyframes vibrate {
     0% { transform: translateX(0px); }
     25% { transform: translateX(3px); }
@@ -52,6 +51,7 @@ body{
   }
 .bottone{
     border:none;
+    background-color: black;
 }
 .dropdown-menu{
     background-color: black;
@@ -61,14 +61,17 @@ body{
 }
 .bottone2{
     background-color: black;
-    margin-left: 20px;
+    margin-left: 20%;
     padding: 5px;
+}
+.bottone2::after{
+    margin-left: 20px;
 }
 .container{
     margin-top: 30px;
 }
 .col-2{
-    margin-left: -20px;
+    margin-left: -15px;
 }
 .footer{
     display: flex;
@@ -85,13 +88,17 @@ body{
   
 }
 .bottone4{
-    border-radius: solid 20px white;
-    border-style:groove;
-    padding: 10px;
+    border-radius: 20px white;
+    border-style: solid;
+    padding: 12px;
     margin-left: 15%;
     margin-top: 10px;
     margin-bottom: 50px;
     
+}
+.net{
+    margin-left: 15%;
+   font-size: small;
 }
     
 
