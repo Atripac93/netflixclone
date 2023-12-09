@@ -57,6 +57,7 @@ body {
   font-size: 24px;
   animation: vibrate 0.5s infinite;
 }
+
 .bottone {
   border: none;
   background-color: black;
@@ -67,24 +68,35 @@ body {
 .profile {
   height: 30px;
 }
+.container {
+  margin-top: 20px;
+}
 .bottone2 {
   background-color: black;
-  margin-left: 20%;
-  padding: 5px;
+  height: 10%;
+  width: 100%;
+  border-radius: 0;
 }
 .bottone2::after {
   margin-left: 20px;
 }
-.container {
-  margin-top: 30px;
+.bottone3 {
+  height: 30px;
+  width: 50px;
+  border-radius: 0;
 }
-.col-2 {
-  margin-left: -15px;
+.tv {
+  height: 30%;
+  width: 15%;
+}
+.col-md-2{
+margin-left: -20px;
 }
 .footer {
   display: flex;
   gap: 10px;
   margin-top: 200px;
+  min-width: 400px;
 }
 .iconefoo {
   height: 80px;
@@ -94,12 +106,12 @@ body {
   margin-left: 15%;
 }
 .bottone4 {
-  border-radius: 20px white;
-  border-style: solid;
-  padding: 12px;
+  border: 1px solid rgb(149, 147, 147);
+  padding: 5px;
   margin-left: 15%;
-  margin-top: 10px;
+  margin-top: 40px;
   margin-bottom: 50px;
+  min-width: 120px;
 }
 .net {
   margin-left: 15%;
