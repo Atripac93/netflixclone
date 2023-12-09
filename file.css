@@ -1,104 +1,107 @@
-body{
-    background-color: rgb(29, 28, 28) !important;
+body {
+  background-color: rgb(29, 28, 28) !important;
 }
-.logo{
-    height: 60px;
-    transition: 3s;
+.logo {
+  height: 60px;
+  transition: 3s;
 }
-.logo:hover{
-    transition: 5s;
-    box-shadow: 0 5px 10px 5px rgb(255, 0, 0);
-   
+.logo:hover {
+  transition: 5s;
+  box-shadow: 0 5px 10px 5px rgb(255, 0, 0);
 }
-.home{
-    transition: 2s;
+.home {
+  transition: 2s;
 }
-.home:hover{
-    box-shadow: inset 0 0 0 1px rgb(220, 190, 190);
-    transition: 3s;
+.home:hover {
+  box-shadow: inset 0 0 0 1px rgb(220, 190, 190);
+  transition: 3s;
 }
-.search{
-    width: 25px;
-    height: 25px;
-    font-weight: bolder;
-    transition: 2s;
+.search {
+  width: 25px;
+  height: 25px;
+  font-weight: bolder;
+  transition: 2s;
 }
-.search:hover{
-    transform: scale(1.5);
-    transition: 2s;
+.search:hover {
+  transform: scale(1.5);
+  transition: 2s;
 }
-.kids{
-    font-size: smaller;
-
+.kids {
+  font-size: smaller;
 }
-.bell{
-    width: 25px;
-    height: 25px;
-    font-weight: bolder; 
+.bell {
+  width: 25px;
+  height: 25px;
+  font-weight: bolder;
 }
 @keyframes vibrate {
-    0% { transform: translateX(0px); }
-    25% { transform: translateX(3px); }
-    50% { transform: translateX(0px); }
-    75% { transform: translateX(3px) }
-    100% { transform: translateX(0px); }
+  0% {
+    transform: translateX(0px);
   }
-
-  .bell:hover {
-    display: inline-block;
-    font-size: 24px;
-    animation: vibrate 0.5s infinite; 
+  25% {
+    transform: translateX(3px);
   }
-.bottone{
-    border:none;
-    background-color: black;
+  50% {
+    transform: translateX(0px);
+  }
+  75% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
-.dropdown-menu{
-    background-color: black;
-}
-.profile{
-    height: 30px;;
-}
-.bottone2{
-    background-color: black;
-    margin-left: 20%;
-    padding: 5px;
-}
-.bottone2::after{
-    margin-left: 20px;
-}
-.container{
-    margin-top: 30px;
-}
-.col-2{
-    margin-left: -15px;
-}
-.footer{
-    display: flex;
-    gap:10px;
-    margin-top:200px ;
-    
-}
-.iconefoo{
-    height: 80px;
-    width: 40px;  
-}
-.colon{
-    margin-left: 15%;
-  
-}
-.bottone4{
-    border-radius: 20px white;
-    border-style: solid;
-    padding: 12px;
-    margin-left: 15%;
-    margin-top: 10px;
-    margin-bottom: 50px;
-    
-}
-.net{
-    margin-left: 15%;
-   font-size: small;
-}
-    
 
+.bell:hover {
+  display: inline-block;
+  font-size: 24px;
+  animation: vibrate 0.5s infinite;
+}
+.bottone {
+  border: none;
+  background-color: black;
+}
+.dropdown-menu {
+  background-color: black;
+}
+.profile {
+  height: 30px;
+}
+.bottone2 {
+  background-color: black;
+  margin-left: 20%;
+  padding: 5px;
+}
+.bottone2::after {
+  margin-left: 20px;
+}
+.container {
+  margin-top: 30px;
+}
+.col-2 {
+  margin-left: -15px;
+}
+.footer {
+  display: flex;
+  gap: 10px;
+  margin-top: 200px;
+}
+.iconefoo {
+  height: 80px;
+  width: 40px;
+}
+.colon {
+  margin-left: 15%;
+}
+.bottone4 {
+  border-radius: 20px white;
+  border-style: solid;
+  padding: 12px;
+  margin-left: 15%;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.net {
+  margin-left: 15%;
+  font-size: small;
+}
