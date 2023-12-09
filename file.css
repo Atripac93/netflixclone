@@ -4,6 +4,7 @@ body {
 .logo {
   height: 60px;
   transition: 3s;
+  margin-left: -20px;
 }
 .logo:hover {
   transition: 5s;
@@ -88,15 +89,23 @@ body {
 .tv {
   height: 30%;
   width: 15%;
+  margin-left: -15px;
 }
-.col-md-2{
-margin-left: -20px;
+.col-md-2 {
+  margin-left: -5px;
 }
+/*.carta{
+  transition: 2s;
+}
+.carta:hover{
+ transform: scale(1.5);
+ transition: 1s;
+}*/
+
 .footer {
   display: flex;
   gap: 10px;
   margin-top: 200px;
-  min-width: 400px;
 }
 .iconefoo {
   height: 80px;
@@ -107,8 +116,8 @@ margin-left: -20px;
 }
 .bottone4 {
   border: 1px solid rgb(149, 147, 147);
-  padding: 5px;
-  margin-left: 15%;
+  padding: 3px;
+  margin-left: 16%;
   margin-top: 40px;
   margin-bottom: 50px;
   min-width: 120px;
