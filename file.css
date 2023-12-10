@@ -52,6 +52,15 @@ body {
     transform: translateX(0px);
   }
 }
+.img-fluid{
+  z-index: 1;
+}
+.img-fluid {
+  transition: transform 0.3s ease-in-out;
+}
+.img-fluid:hover {
+  transform: scale(1.2);
+}
 
 .bell:hover {
   display: inline-block;
@@ -77,6 +86,7 @@ body {
   height: 10%;
   width: 100%;
   border-radius: 0;
+  z-index: 1;
 }
 .bottone2::after {
   margin-left: 20px;
@@ -94,18 +104,8 @@ body {
 .col-md-2 {
   margin-left: -5px;
 }
-/*.carta{
-  transition: 2s;
-}
-.carta:hover{
- transform: scale(1.5);
- transition: 1s;
-}*/
-
 .footer {
-  display: flex;
-  gap: 10px;
-  margin-top: 200px;
+  margin-top: 10%;
 }
 .iconefoo {
   height: 80px;
@@ -121,4 +121,8 @@ body {
   margin-top: 40px;
   margin-bottom: 50px;
   min-width: 120px;
+}
+.net {
+  font-size: smaller;
+  margin-bottom: 1%;
 }
